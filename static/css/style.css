@@ -1,0 +1,11 @@
+.greaterThan100 {
+	color: green;
+}
+
+.greaterThan1000 {
+	color: yellow;
+}
+
+.greaterThan10000 {
+	color: red;
+}

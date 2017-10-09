@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel='stylesheet' href='/static/style.css' />
+    </head>
+    <body>
+        <h1>This is the home page!</h1>
+        <p>{{ content }}</p>
+        <form action="/" method="POST">
+            <label for="day_select">Select a day</label>
+            <select name="day_of_week" id="day_select">
+                <option value="sunday">Sunday</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="saturday">Saturday</option>
+            </select>
+            <input type="submit" value="Give me a quote" />
+        </form>
+    </body>
+</html>
